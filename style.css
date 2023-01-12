@@ -1,0 +1,26 @@
+#ball {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: red;
+    border: none;
+    top: 700px;
+    transition: all;
+    transition-duration: 1s;
+    position: relative;
+}
+
+.base {
+    height: 10px;
+    width: 300px;
+    background-color: black;
+    top: 700px;
+    position: relative;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
